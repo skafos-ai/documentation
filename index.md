@@ -35,3 +35,7 @@ To successfully integrate Skafos into your existing apps and Machine Learning mo
 * [Python SDK](https://pypi.org/project/skafos/)
 * iOS Framework
 
+## Have questions? Need help?
+Join our Slack Community! Click the icon below for a link.
+
+[<img src="images/Slack_Mark_Web.png" width=15%>](https://skafosai.slack.com/join/shared_invite/enQtNTAxMzEwOTk2NzA5LThjMmMyY2JkNTkwNDQ1YjgyYjFiY2MyMjRkMzYyM2E4MjUxNTJmYmQyODVhZWM2MjQwMjE5ZGM1Y2YwN2M5ODI)
