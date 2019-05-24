@@ -1,4 +1,4 @@
-<link rel="shortcut icon" type="image/x-icon" href="https://docs.skafos.ai/favicon.ico?">
+<link rel="shortcut icon" type="image/x-icon" href="https://docs.skafos.ai/assets/favicon.ico">
 
 [<img src="https://docs.skafos.ai/assets/skafos_mark.png" width="10%">](https://skafos.ai)
 
