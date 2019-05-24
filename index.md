@@ -1,4 +1,4 @@
-[<img src="https://docs.skafos.ai/assets/skafos_mark.png" width=10%>](https://skafos.ai)
+[<img src="https://docs.skafos.ai/assets/skafos_mark.png" width="10%">](https://skafos.ai)
 
 
 # Welcome to Skafos!
@@ -41,4 +41,4 @@ To successfully integrate Skafos into your existing apps and Machine Learning mo
 ## Have questions? Need help?
 Join our Slack Community! Click the icon below for a link.
 
-[<img src="https://docs.skafos.ai/assets/Slack_Mark_Web.png" width=15%>](https://skafosai.slack.com/join/shared_invite/enQtNTAxMzEwOTk2NzA5LThjMmMyY2JkNTkwNDQ1YjgyYjFiY2MyMjRkMzYyM2E4MjUxNTJmYmQyODVhZWM2MjQwMjE5ZGM1Y2YwN2M5ODI)
+[<img src="https://docs.skafos.ai/assets/Slack_Mark_Web.png" width="15%">](https://skafosai.slack.com/join/shared_invite/enQtNTAxMzEwOTk2NzA5LThjMmMyY2JkNTkwNDQ1YjgyYjFiY2MyMjRkMzYyM2E4MjUxNTJmYmQyODVhZWM2MjQwMjE5ZGM1Y2YwN2M5ODI)
