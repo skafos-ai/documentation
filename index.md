@@ -9,12 +9,12 @@
 
 Skafos is the tool for deploying machine learning models to mobile apps and managing the same models in a production environment. Built to integrate with any of the major cloud providers, users can utilize AWS, Azure, Google, IBM or nearly any other computational environment to organize data and train models. Skafos then versions, manages, deploys, and monitors model versions running in your production application environments. A recommended functional architecture looks something like this:
 
-[Diagram] 
-DATA — TRAINING ENV (python SDK) — SKAFOS — (iOS Framework) PHONES
+<img src="https://docs.skafos.ai/assets/data-training-skafos-phones.png">
 
 Skafos is internally structured to support organizations (or individuals) who develop apps with machine learning models that power the next generation of mobile experiences. Given that most production mobile applications are supported by small to medium-sized teams, Skafos requires the creation of an organization from which to manage a team of one or more users. For any given organization, Skafos has the following hierarchical structure:
 
-[Diagram] APPS -- MODELS -- MODEL VERSIONS
+<img src="https://docs.skafos.ai/assets/apps-models-versions.png">
+
 
 ## Applications
 
