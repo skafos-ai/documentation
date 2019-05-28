@@ -40,7 +40,7 @@ Skafos model versions are deployable machine learning artifacts such as Core ML 
 To successfully integrate Skafos into your existing apps and Machine Learning model training environment, use the Skafos Python SDK and iOS Framework. 
  
 * [Python SDK](https://pypi.org/project/skafos/)
-* iOS Framework
+* [iOS Framework](https://github.com/skafos/ios)
 
 ## Have questions? Need help?
 Join our Slack Community! Click the icon below for a link.
