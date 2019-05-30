@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>documentation | Skafos platform documentation</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="documentation" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Skafos platform documentation" />
+<meta property="og:description" content="Skafos platform documentation" />
+<link rel="canonical" href="https://docs.skafos.ai/" />
+<meta property="og:url" content="https://docs.skafos.ai/" />
+<meta property="og:site_name" content="documentation" />
+<script type="application/ld+json">
+{"@type":"WebSite","headline":"documentation","url":"https://docs.skafos.ai/","name":"documentation","description":"Skafos platform documentation","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=3a3e94df6e2201243b616f65d20e4ae0a485f00b">
+    <link rel="shortcut icon" type="image/x-icon" href="https://docs.skafos.ai/assets/favicon.ico" />
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+
+<p><a href="https://skafos.ai"><img src="https://docs.skafos.ai/assets/skafos_mark.png" width="10%" /></a></p>
+
+<h1 id="welcome-to-skafos">Welcome to Skafos!</h1>
+
+<p>Skafos is the tool for deploying machine learning models to mobile apps and managing the same models in a production environment. Built to integrate with any of the major cloud providers, users can utilize AWS, Azure, Google, IBM or nearly any other computational environment to organize data and train models. Skafos then versions, manages, deploys, and monitors model versions running in your production application environments. A recommended functional architecture looks something like this:</p>
+
+<p><img src="https://docs.skafos.ai/assets/data-training-skafos-phones.png" /></p>
+
+<p>Skafos is internally structured to support organizations (or individuals) who develop apps with machine learning models that power the next generation of mobile experiences. Given that most production mobile applications are supported by small to medium-sized teams, Skafos requires the creation of an organization from which to manage a team of one or more users. For any given organization, Skafos has the following hierarchical structure:</p>
+
+<p><img src="https://docs.skafos.ai/assets/apps-models-versions.png" /></p>
+
+<h2 id="applications">Applications</h2>
+
+<p>Skafos applications represent an iOS application integration. Create a new Skafos application for each new iOS app with a unique bundle ID. Utilize application environments to manage development and production releases.</p>
+
+<ul>
+  <li>Manage your Skafos application name and application environments.</li>
+  <li>Environment keys are managed at the application level.</li>
+</ul>
+
+<h2 id="models">Models</h2>
+<p>Skafos models represent a component of your application powered by a machine learning artifact. Models are a collection of model versions, and environments to which model versions are deployed. Create a new Skafos model for each discrete ML-powered feature.</p>
+
+<ul>
+  <li>Manage your Skafos model name, and model version deployments here.</li>
+</ul>
+
+<h2 id="model-versions">Model Versions</h2>
+<p>Skafos model versions are deployable machine learning artifacts such as Core ML and TensorFlow Lite files. Model versions are automatically version-controlled by Skafos when saved, can be loaded into remote training environments for evaluation or retraining, and can be deployed to mobile devices for on-device inference.</p>
+
+<ul>
+  <li>Model versions may be assigned to environments.</li>
+  <li>Model versions are zipped archives. Skafos compresses on your behalf in the python SDK. If you use the dashboard, you are required to zip your files prior to upload.</li>
+</ul>
+
+<h2 id="python-sdk-and-ios-framework">Python SDK and iOS Framework</h2>
+<p>To successfully integrate Skafos into your existing apps and Machine Learning model training environment, use the Skafos Python SDK and iOS Framework.</p>
+
+<ul>
+  <li><a href="https://pypi.org/project/skafos/">Python SDK</a></li>
+  <li><a href="https://github.com/skafos/ios">iOS Framework</a></li>
+</ul>
+
+<h2 id="have-questions-need-help">Have questions? Need help?</h2>
+<p>Join our Slack Community! Click the icon below for a link.</p>
+
+<p><a href="https://skafosai.slack.com/join/shared_invite/enQtNTAxMzEwOTk2NzA5LThjMmMyY2JkNTkwNDQ1YjgyYjFiY2MyMjRkMzYyM2E4MjUxNTJmYmQyODVhZWM2MjQwMjE5ZGM1Y2YwN2M5ODI"><img src="https://docs.skafos.ai/assets/Slack_Mark_Web.png" width="15%" /></a></p>
+
+
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+    
+  </body>
+</html>
