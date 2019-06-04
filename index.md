@@ -1,8 +1,7 @@
-[<img src="https://docs.skafos.ai/assets/skafos_mark.png" width="10%">](https://skafos.ai)
+[<img src="https://docs.skafos.ai/assets/main-logo.png" width="25%">](https://skafos.ai)
 
 
-# Welcome to Skafos!
-Skafos is the tool for deploying machine learning models to mobile apps and managing the same models in a production environment. Built to integrate with any of the major cloud providers, users can utilize AWS, Azure, Google, IBM or nearly any other computational environment to organize data and train models. Skafos then versions, manages, deploys, and monitors model versions running in your production application environments. A recommended functional architecture looks something like this:
+[Skafos](https://skafos.ai) is the tool for deploying machine learning models to mobile apps and managing the same models in a production environment. Built to integrate with any of the major cloud providers, users can utilize AWS, Azure, Google, IBM or nearly any other computational environment to organize data and train models. Skafos then versions, manages, deploys, and monitors model versions running in your production application environments. A recommended functional architecture looks something like this:
 
 <img src="https://docs.skafos.ai/assets/data-training-skafos-phones.png">
 
@@ -36,6 +35,7 @@ To successfully integrate Skafos into your existing apps and Machine Learning mo
 
 * [Python SDK](https://pypi.org/project/skafos/)
 * [iOS Framework](https://github.com/skafos/ios)
+
 
 ## Have questions? Need help?
 Read through our set of [FAQs](sections/faq.md) (Frequently Asked Questions).
