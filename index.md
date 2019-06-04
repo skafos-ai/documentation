@@ -1,4 +1,4 @@
-[<img src="https://docs.skafos.ai/assets/main-logo.png" width="25%">](https://skafos.ai)
+[<img src="https://docs.skafos.ai/assets/main-logo.png" width="30%">](https://skafos.ai)
 
 
 [Skafos](https://skafos.ai) is the tool for deploying machine learning models to mobile apps and managing the same models in a production environment. Built to integrate with any of the major cloud providers, users can utilize AWS, Azure, Google, IBM or nearly any other computational environment to organize data and train models. Skafos then versions, manages, deploys, and monitors model versions running in your production application environments. A recommended functional architecture looks something like this:
