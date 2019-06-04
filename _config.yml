@@ -1,0 +1,7 @@
+name: "Skafos Documentation"
+title: null
+
+# Build Settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
