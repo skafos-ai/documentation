@@ -21,7 +21,16 @@ deployment:
 - How big is your model? Large models may take some time to download in the app
 depending on network speed and bandwidth.
 - Are you watching the console area debug logs?
+- Are you setting the right `modelName` variable? Should be the same name used in the Skafos dashboard.
 
 If you've check each of these things and are still having trouble, [reach out to
 us on Slack](https://skafosai.slack.com/join/shared_invite/enQtNTAxMzEwOTk2NzA5LThjMmMyY2JkNTkwNDQ1YjgyYjFiY2MyMjRkMzYyM2E4MjUxNTJmYmQyODVhZWM2MjQwMjE5ZGM1Y2YwN2M5ODI)
 and we will provide assistance.
+
+### **4. I cloned an example app and am getting some errors...**
+- Do you have Cocoapods or Carthage installed?
+- Did you run the install command (`pod install` or `carthage install`)?
+- Did you open your workspace (`.xcworkspace`)?
+- Did you set your own bundle ID?
+- Did you change the team and details in the "Signing" section of "Project -> General"?
+- Did you add your Skafos environment keys in the App Delegate?
