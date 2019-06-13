@@ -40,6 +40,8 @@ To successfully integrate Skafos into your existing apps and Machine Learning mo
 ## Have questions? Need help?
 Read through our set of [FAQs](sections/faq.md) (Frequently Asked Questions).
 
+[Visit our YouTube channel](https://www.youtube.com/channel/UCPufR0t13R-eHEW0OPCmrPw) for step-by-step tutorials and other helpful content.
+
 Join our Slack Community! Click the icon below.
 
 [<img src="https://docs.skafos.ai/assets/Slack_Mark_Web.png" width="15%">](https://skafosai.slack.com/join/shared_invite/enQtNTAxMzEwOTk2NzA5LThjMmMyY2JkNTkwNDQ1YjgyYjFiY2MyMjRkMzYyM2E4MjUxNTJmYmQyODVhZWM2MjQwMjE5ZGM1Y2YwN2M5ODI)
