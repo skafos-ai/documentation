@@ -57,7 +57,8 @@ and we will provide assistance.
 
 ### **3. Can I use a non-CoreML artifact as my machine learning model?**
 Yes. Apple built CoreML to play nicely in Swift and Xcode. Skafos integrates with CoreML seamlessly (see all of our example apps). However, Skafos can be used to deploy arbitrary files. So if you are trying to deploy another model format like
-TensorFlow Lite or DLib, there's nothing stopping you.
+[TensorFlow Lite](https://www.tensorflow.org/lite) or [DLib](http://dlib.net/),
+there's nothing stopping you.
 
 Check out this example app where Skafos delivers and integrates a non-CoreML
 model.
