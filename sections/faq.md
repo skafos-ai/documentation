@@ -11,12 +11,14 @@ project build for the first time. Try building and see if the error persists (if
 installed the framework correctly you shouldn't see it anymore).
 
 ### **2. I cloned an example app and am getting some errors...**
-- Do you have Cocoapods or Carthage installed?
-- Did you run the install command (`pod install` or `carthage install`)?
-- Did you open your workspace (`.xcworkspace`)?
-- Did you set your own bundle ID?
+Run through the following series of steps to make sure you have all the necessary dependencies and are in the right place. 
+
+- Do you have [Cocoapods](https://cocoapods.org/) or [Carthage](https://github.com/Carthage/Carthage) installed?
+	- If not, download and run the install command for your framework of choice (`pod install` or `carthage install`). Note that you only need to install one or the other.  
+- Did you open your workspace (`.xcworkspace`)? We find it easiest to use a terminal use the `open` command. 
+- Did you set your own unique bundle ID? This can be found in the "Identity" section of "Project -> General"
 - Did you change the team and details in the "Signing" section of "Project -> General"?
-- Did you add your Skafos environment keys in the App Delegate?
+- Did you add your Skafos environment keys in the `AppDelegate.swift` file?
 
 ### **3. There are errors in the console related to ATS Security Protocol...**
 Sometimes you might see errors like this:
