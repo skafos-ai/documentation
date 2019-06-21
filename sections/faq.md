@@ -33,7 +33,7 @@ Fortunately it's an easy fix. Just add this setting to your app's `Info.plist` f
   <true/>
 </dict>
 ```
-Use a text editor like Vim and insert the above snippet within the `<plist>...</plist>` component.
+Use a text editor like Vim and insert the above snippet within the `<plist>...</plist>` tags.
 
 
 ## Skafos Workflow Related
