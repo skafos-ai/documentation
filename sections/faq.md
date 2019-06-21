@@ -33,7 +33,7 @@ Fortunately it's an easy fix. Just add this setting to your app's `Info.plist` f
   <true/>
 </dict>
 ```
-Use a text editor like Vim and insert the above snippet within the `<plist>..</plist>` component.
+Use a text editor like Vim and insert the above snippet within the `<plist>...</plist>` component.
 
 
 ## Skafos Workflow Related
@@ -50,18 +50,24 @@ deployment:
 depending on network speed and bandwidth.
 - Are you watching the console area debug logs?
 - Are you setting the right `modelName` variable? Should be the same name used in the Skafos dashboard.
+- Are you reinitializing the ML model and data handler classes with the new files once downloaded by Skafos?
+
+
+### **3. Can I use a non-CoreML artifact as my machine learning model?**
+Yes. Apple built CoreML to play nicely in Swift and Xcode. Skafos integrates with CoreML seamlessly (see all of our example apps). However, Skafos can be used to deploy any model format to the edge like
+[TensorFlow Lite](https://www.tensorflow.org/lite) or [DLib](http://dlib.net/).
+
+Here are a list of example ML apps that demonstrate Skafos integration and delivery with non-CoreML models:
+
+- [TF-Lite Image Classification](https://github.com/skafos/example-ml-apps/TensoFlow/tflite/ios)
+
+*More coming soon*
+
+### **4. Does Skafos handle model training?**
+Skafos does not handle model training directly. Because each ML app and use-case is unique, Skafos is built to support any training environment you choose. We provide a [Python SDK](https://sdk.skafos.ai) for you to upload models to Skafos from wherever is most convenient for you.
+
+------------------------------------
 
 If you've check each of these things and are still having trouble, [reach out to
 us on Slack](https://skafosai.slack.com/join/shared_invite/enQtNTAxMzEwOTk2NzA5LThjMmMyY2JkNTkwNDQ1YjgyYjFiY2MyMjRkMzYyM2E4MjUxNTJmYmQyODVhZWM2MjQwMjE5ZGM1Y2YwN2M5ODI)
 and we will provide assistance.
-
-### **3. Can I use a non-CoreML artifact as my machine learning model?**
-Yes. Apple built CoreML to play nicely in Swift and Xcode. Skafos integrates with CoreML seamlessly (see all of our example apps). However, Skafos can be used to deploy arbitrary files. So if you are trying to deploy another model format like
-[TensorFlow Lite](https://www.tensorflow.org/lite) or [DLib](http://dlib.net/),
-there's nothing stopping you.
-
-Check out this example app where Skafos delivers and integrates a non-CoreML
-model.
-
-### **4. Does Skafos handle model training?**
-Skafos does not handle model training directly. Because each ML app and use-case is unique, Skafos is built to support any training environment you choose. We provide a [Python SDK](https://sdk.skafos.ai) for you to upload models to Skafos from wherever is most convenient for you.
