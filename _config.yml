@@ -1,5 +1,7 @@
-name: "Skafos Documentation"
-title: null
+title: Skafos Documentation
+description: Smarter Apps Run on Skafos.
+markdown: kramdown
+theme: jekyll-theme-slate
 
 # Build Settings
 plugins:
