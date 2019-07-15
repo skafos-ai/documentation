@@ -29,6 +29,12 @@ Skafos model versions are deployable machine learning artifacts such as Core ML 
 * Model versions may be assigned to environments.
 * Model versions are zipped archives. Skafos compresses on your behalf in the python SDK. If you use the dashboard, you are required to zip your files prior to upload.
 
+## Model Monitoring
+Skafos model monitoring provides insight into your deployed model versions. We currently monitor the total installations for a model version as well as the iOS specs (device type and iOS version) for active devices. An active device is a device that has made call to the Skafos framework in a given window of time. Monitoring the usage of your models in the wild can provide suggestions for improvement or support in your next iteration. 
+
+* View the adoption rate of your newly deployed model version.
+* Consider end user device specs to support in your next model iteration.
+
 
 ## Python SDK and iOS Framework
 To successfully integrate Skafos into your existing apps and Machine Learning model training environment, use the Skafos Python SDK and iOS Framework.
