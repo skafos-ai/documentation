@@ -1,5 +1,3 @@
-
-# About Skafos
 <img src="assets/skafos_mark.png"
      width="40" height="40"
      style="left: left; margin-right: 5px;" />
