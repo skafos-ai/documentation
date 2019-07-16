@@ -6,14 +6,13 @@
 [Skafos](https://skafos.ai) helps you deliver the power of machine learning to your mobile applications:
 
 * **Management**
-    * Upload your own custom models from any training environment (cloud or local) to the [dashboard](https://dashboard.skafos.ai)
-    * Store and manage models associated with your app in a streamlined versioning interface
+    * Upload custom models from any training environment to the [dashboard](https://dashboard.skafos.ai)
+    * Store and version models associated with your app
 * **Deployment**
-    * Deliver or roll-back model versions to deployment environments (dev or prod)
+    * Deliver or roll-back model versions to environments (dev or prod)
     * Update models over-the-air without resubmitting your entire application to the app store
 * **Monitoring**
     * Track active devices, model installations, and other analytics all in one spot
-    * Get insights to help you plan and improve your next iteration
 
 A recommended functional architecture looks something like this:
 
@@ -115,8 +114,8 @@ If you prefer to learn by example:
 Read through our set of [FAQs](sections/faq.md) (Frequently Asked Questions).
 
 ### Other Resources
-- [Visit our YouTube channel](https://www.youtube.com/channel/UCPufR0t13R-eHEW0OPCmrPw) for step-by-step tutorials and other helpful content.
-- [Check out our Blog @ Medium](https://medium.com/skafosai).
+- [Visit our YouTube channel](https://www.youtube.com/channel/UCPufR0t13R-eHEW0OPCmrPw) for step-by-step tutorials and other helpful content
+- [Check out our Blog @ Medium](https://medium.com/skafosai)
 
 ### Slack
 [<img src="https://docs.skafos.ai/assets/Slack_Mark_Web.png"
