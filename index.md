@@ -57,34 +57,34 @@ Utilize application **Environments** to manage model version deployments to eith
 # Development Tools
 Skafos provides three development tools to get started.
 
-## [Python SDK](https://pypi.org/project/skafos/)
+### [Python SDK](https://pypi.org/project/skafos/)
 A Python wrapper for uploading, fetching, and listing model versions from the platform. Install the SDK using the pip package manager:
 ```bash
 $ pip install skafos
 ```
 Visit the [SDK Documentation](https://sdk.skafos.ai) for available methods and usage guide.
 
-## [iOS Framework](https://github.com/skafos/ios)
-An iOS framework for managing model deployments in your mobile application. Visit the [Integration Guide](sections/integrate.md) for usage details.
+### [iOS Framework](https://github.com/skafos/ios)
+An iOS framework for managing model deployments in your mobile application. Visit the [Integration Guide](sections/integrate.md){:target="_blank"} for usage details.
 
-## [Dashboard](https://dashboard.skafos.ai)
+### [Dashboard](https://dashboard.skafos.ai)
 A web-based user interface designed to help you do the following:
 
-#### Create New App Integrations
+##### Create New App Integrations
 
 <img src="assets/new_app.png" width="40%"/>
 
   - Start with an example app
   - Bring your own; start with a custom app
 
-#### Upload, Manage, & Deploy Models
+##### Upload, Manage, & Deploy Models
 
 <img src="assets/deploy.png" width="120%"/>
 
   - Version and organize your models and applications
   - Deploy or roll-back model versions to different environments
 
-#### Monitor Apps & Models
+##### Monitor Apps & Models
 
 <img src="assets/BasicMonitoringFinal.png" width="100%"/>
 
