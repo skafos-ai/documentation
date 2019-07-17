@@ -1,8 +1,9 @@
 <img src="assets/skafos_mark.png"
      width="40" height="40"
-     style="left: left; margin-right: 5px;" />
-[Skafos](https://skafos.ai) helps you deliver the power of machine learning to your mobile applications:
+     style="float: left; margin-right: 20px; margin-bottom: 20px;" />
+##### Deliver the power of machine learning to your mobile applications.
 
+__
 * **Management**
     * Upload custom models from any training environment to the [dashboard](https://dashboard.skafos.ai)
     * Store and version models associated with your app
