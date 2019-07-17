@@ -69,7 +69,8 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 ## Setup Model Version Updates
 In order to receive model updates over the air, embed the `Skafos.load` method in your
-view controller and change `MyCustomModel()` to match your CoreML model name:
+view controller and change `MyCustomModel()` to match your CoreML model name and `modelName` to
+match the model name you assigned in the dashboard.
 
 ```swift
 import UIKit
@@ -104,7 +105,6 @@ class MainViewController : UIViewController {
 }
 ```
 
-----
-
-*You must have an initial model version in your app bundle. We highly recommend using CoreML (.mlmodel),
-but other formats are possible. [See some of our example apps delivering non-CoreML models](https://github.com/skafos/example-ml-apps)*
+## About the Model
+You must have an initial model version in your app bundle. We highly recommend using CoreML (.mlmodel),
+but other formats are possible. [See some of our example apps delivering non-CoreML models](https://github.com/skafos/example-ml-apps).

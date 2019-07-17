@@ -97,7 +97,7 @@ A web-based user interface designed to help you do the following:
 We've assembled a collection of resources to help you learn and start using Skafos today.
 
 ### Integration Guide
-Learn [how to integrate your app](sections/integrate.md) with Skafos.
+Learn [how to integrate your app](sections/integrate.md){:target="_blank"} with Skafos.
 
 ### Code Examples
 If you prefer to learn by example:
@@ -110,7 +110,7 @@ If you prefer to learn by example:
 * [Model Training on Microsoft Azure](https://github.com/skafos/azure-example-models)
 
 ### FAQs
-Read through our set of [FAQs](sections/faq.md) (Frequently Asked Questions).
+Read through our set of [FAQs](sections/faq.md){:target="_blank"} (Frequently Asked Questions).
 
 ### Other Resources
 - [Visit our YouTube channel](https://www.youtube.com/channel/UCPufR0t13R-eHEW0OPCmrPw) for step-by-step tutorials and other helpful content
