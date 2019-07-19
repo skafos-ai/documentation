@@ -4,14 +4,17 @@
 ##### Deliver the power of machine learning to your mobile applications.
 
 __
-* **Management**
-    * Upload custom models from any training environment to the [dashboard](https://dashboard.skafos.ai)
-    * Store and version models associated with your app
-* **Deployment**
-    * Deliver or roll-back model versions to environments (dev or prod)
-    * Update models over-the-air without resubmitting your entire application to the app store
-* **Monitoring**
-    * Track active devices, model installations, and other analytics all in one spot
+
+**Management**
+* Upload custom models from any training environment to the [dashboard](https://dashboard.skafos.ai)
+* Store and version models associated with your app
+
+**Deployment**
+* Deliver or roll-back model versions to application environments (dev or prod)
+* Update models over-the-air without resubmitting your application to the app store
+
+**Monitoring**
+* Track active devices, model installations, and other analytics
 
 A recommended functional architecture looks something like this:
 
@@ -25,7 +28,7 @@ You build with Skafos as an **Organization** (either an *individual* or a *team 
 - [Applications](#applications)
 - [Environments](#environments)
 - [Models](#models)
-- [Model Versions](#model versions)
+- [Model Versions](#model-versions)
 
 ### Applications
 An **Application** on Skafos represents an iOS app integration. Create a new application for each new iOS app that has a unique [Bundle ID](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids).
@@ -37,10 +40,15 @@ The structure for a *typical application* is shown on the left and a more *compl
      style="left: left; margin-top: 15px; margin-bottom: 15px;"/>
 
 ### Environments
-Utilize application **Environments** to manage model version deployments to either Dev or Prod.
+Utilize application **Environments** to manage model version deployments to either:
+* **Dev**: Use this environment when building/testing your app in Xcode (with DEBUG flag as True).
+* **Prod**: Use this environment when testing your app in [TestFlight](https://developer.apple.com/testflight/) or
+when it's released to the [App Store](https://www.apple.com/ios/app-store/).
 
 <img src="assets/env.png"
      style="left: left; margin-top: 15px; margin-bottom: 15px;"/>
+
+[Learn how to set Skafos environment keys](sections/integrate.md#set-environment-keys){:target="_blank"} in your iOS app.
 
 ### Models
 **Models** represent a component of your application powered by a machine learning artifact.
@@ -49,9 +57,10 @@ Utilize application **Environments** to manage model version deployments to eith
 - Create a new Skafos model for each discrete ML-powered feature.
 
 ### Model Versions
-**Model Versions** are deployable machine learning artifacts such as Core ML or TensorFlow Lite files ready to run inference on-device.
+**Model Versions** are deployable machine learning artifacts such as [Core ML](https://developer.apple.com/documentation/coreml){:target="_blank"}
+ or [TensorFlow Lite](https://www.tensorflow.org/lite){:target="_blank"} files ready to run inference on-device.
 
-- Model versions are automatically version-controlled once uploaded.
+- Model versions are automatically version-controlled once uploaded to the platform.
 - Model versions may be assigned to environments.
 
 # Development Tools
@@ -77,14 +86,14 @@ A web-based user interface designed to help you do the following:
   - Start with an example app
   - Bring your own; start with a custom app
 
-##### Upload, Manage, & Deploy Models
+##### Manage & Deploy Models
 
 <img src="assets/deploy.png" width="120%"/>
 
   - Version and organize your models and applications
   - Deploy or roll-back model versions to different environments
 
-##### Monitor Apps & Models
+##### Monitor Models & Devices
 
 <img src="assets/BasicMonitoringFinal.png" width="100%"/>
 
@@ -112,7 +121,7 @@ If you prefer to learn by example:
 ### FAQs
 Read through our set of [FAQs](sections/faq.md){:target="_blank"} (Frequently Asked Questions).
 
-### Other Resources
+### Other Content
 - [Visit our YouTube channel](https://www.youtube.com/channel/UCPufR0t13R-eHEW0OPCmrPw) for step-by-step tutorials and other helpful content
 - [Check out our Blog @ Medium](https://medium.com/skafosai)
 
