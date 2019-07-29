@@ -66,12 +66,12 @@ when it's released to the [App Store](https://www.apple.com/ios/app-store/).
 # Development Tools
 Skafos provides three development tools to get started.
 
-### [Python SDK](https://pypi.org/project/skafos/)
-A Python wrapper for uploading, fetching, and listing model versions from the platform. Install the SDK using the pip package manager:
+### [Python SDK](https://sdk.skafos.ai)
+A Python wrapper for uploading, fetching, and listing model versions from the platform. Install the SDK from [PyPI](https://pypi.org/project/skafos/) using the pip package manager:
 ```bash
 $ pip install skafos
 ```
-Visit the [SDK Documentation](https://sdk.skafos.ai) for available methods and usage guide.
+Follow the link in the header to get to the SDK Documentation.
 
 ### [iOS Framework](https://github.com/skafos/ios)
 An iOS framework for managing model deployments in your mobile application. Visit the [Integration Guide](sections/integrate.md){:target="_blank"} for usage details.
