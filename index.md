@@ -127,6 +127,6 @@ Read through our set of [FAQs](sections/faq.md){:target="_blank"} (Frequently As
 
 ### Slack
 [<img src="https://docs.skafos.ai/assets/Slack_Mark_Web.png"
-     width="15%"
-     style="left: left; margin-right: 5px;" />](https://skafosai.slack.com/join/shared_invite/enQtNTAxMzEwOTk2NzA5LThjMmMyY2JkNTkwNDQ1YjgyYjFiY2MyMjRkMzYyM2E4MjUxNTJmYmQyODVhZWM2MjQwMjE5ZGM1Y2YwN2M5ODI)
+     width="10%"
+     style="box-shadow: none; left: left;" />](https://skafosai.slack.com/join/shared_invite/enQtNTAxMzEwOTk2NzA5LThjMmMyY2JkNTkwNDQ1YjgyYjFiY2MyMjRkMzYyM2E4MjUxNTJmYmQyODVhZWM2MjQwMjE5ZGM1Y2YwN2M5ODI)
 Join our Slack Community!
