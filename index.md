@@ -2,7 +2,6 @@
      width="40" height="40"
      style="float: left; margin-right: 20px; margin-bottom: 20px;" />
 ##### Deliver the power of machine learning to your mobile applications.
-
 __
 
 **Management**
@@ -107,6 +106,10 @@ We've assembled a collection of resources to help you learn and start using Skaf
 
 ### Integration Guide
 Learn [how to integrate your app](sections/integrate.md){:target="_blank"} with Skafos.
+
+#### Using Skafos with External Platforms
+
+* [MakeML](sections/external_tools/makeml.md){:target="_blank"} - Get up and running with a CoreML object detection model without having to write any code. 
 
 ### Code Examples
 If you prefer to learn by example:
