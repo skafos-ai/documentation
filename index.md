@@ -2,7 +2,6 @@
      width="40" height="40"
      style="float: left; margin-right: 20px; margin-bottom: 20px;" />
 ##### Deliver the power of machine learning to your mobile applications.
-
 __
 
 **Management**
@@ -108,6 +107,10 @@ We've assembled a collection of resources to help you learn and start using Skaf
 ### Integration Guide
 Learn [how to integrate your app](sections/integrate.md){:target="_blank"} with Skafos.
 
+#### Using Skafos with External Platforms
+
+* [MakeML](sections/external_tools/makeml.md){:target="_blank"} - Get up and running with a CoreML object detection model without having to write any code. 
+
 ### Code Examples
 If you prefer to learn by example:
 * [Image Classification iOS App](https://github.com/skafos/ImageClassificationIOS)
@@ -127,6 +130,6 @@ Read through our set of [FAQs](sections/faq.md){:target="_blank"} (Frequently As
 
 ### Slack
 [<img src="https://docs.skafos.ai/assets/Slack_Mark_Web.png"
-     width="15%"
-     style="left: left; margin-right: 5px;" />](https://skafosai.slack.com/join/shared_invite/enQtNTAxMzEwOTk2NzA5LThjMmMyY2JkNTkwNDQ1YjgyYjFiY2MyMjRkMzYyM2E4MjUxNTJmYmQyODVhZWM2MjQwMjE5ZGM1Y2YwN2M5ODI)
+     width="10%"
+     style="box-shadow: none; left: left;" />](https://skafosai.slack.com/join/shared_invite/enQtNTAxMzEwOTk2NzA5LThjMmMyY2JkNTkwNDQ1YjgyYjFiY2MyMjRkMzYyM2E4MjUxNTJmYmQyODVhZWM2MjQwMjE5ZGM1Y2YwN2M5ODI)
 Join our Slack Community!
