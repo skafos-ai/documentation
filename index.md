@@ -92,6 +92,15 @@ A web-based user interface designed to help you do the following:
   - Version and organize your models and applications
   - Deploy or roll-back model versions to different environments
 
+##### Send Background Updates
+
+<img src="assets/deploy_with_push.png" height="400" />
+
+  - Push an asset to iOS devices through Apple's Prod or Dev Push Notification Service.
+  - Increase model adoption rate by making an instant call to iOS devices to download in the background
+
+[Learn how to enable push notification model updates](sections/push_notifications.md){:target="_blank"} for your app.
+
 ##### Monitor Models & Devices
 
 <img src="assets/BasicMonitoringFinal.png" width="100%"/>
@@ -100,6 +109,13 @@ A web-based user interface designed to help you do the following:
   - View the adoption rate of your newly deployed model versions
 
 [Create a free account and login to get started!](https://dashboard.skafos.ai/sign-up)
+
+##### Review Past Deliveries
+
+<img src="assets/review_push_history.png"/>
+
+ - Maintain a delivery log of past model deliveries
+ - Keep track of audience size per background update 
 
 # Resources
 We've assembled a collection of resources to help you learn and start using Skafos today.
