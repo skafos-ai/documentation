@@ -16,7 +16,7 @@ Then, upload your [push certificate](https://developer.apple.com/documentation/u
 
 <img src="/assets/app_settings_push_certs.png" width="100%"/>
 
-[Learn how to setup background update with Skafos](sections/integrate.md){:target="_blank"} in your iOS app.
+[Learn how to setup background update with Skafos](/integrate.md#setup-silent-background-updates){:target="_blank"} in your iOS app.
 
 ### Send a Model Update via Push
 
