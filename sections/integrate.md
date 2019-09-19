@@ -117,7 +117,7 @@ but other formats are possible. [See some of our example apps delivering non-Cor
 
 ## Setup Silent Background Updates
 
-Note: The following shows how to setup your iOS application for backgroun model updates. Checkout [this guide](sections/push_notifications.md){:target="_blank"} to setup your Skafos app to send models with push notifications. 
+Note: The following shows how to setup your iOS application for backgroun model updates. Checkout [this guide](push_notifications.md){:target="_blank"} to setup your Skafos app to send models with push notifications. 
 
 ### Xcode Setup
 
@@ -125,23 +125,16 @@ In order to receive new models through silent background updates, first we need 
 
 **Setup Background Modes:**
 
-Select your `workspace` --> `Capabilities` --> `Background Modes`, then:
+Select your `Project` --> `Capabilities` --> `Background Modes`, then:
 
 * turn `on` Background Modes 
 * check `Background fetch` and `Remote notifications`
 
 **Setup Push Notifications:**
 
-Select your `workspace` --> `Capabilities` --> `Push Notifications`, then:
+Select your `Project` --> `Capabilities` --> `Push Notifications`, then:
 
 * turn `on` Push Notifixations
-
-**Setup Archive Abilitiy:**
-
-Select your `Project` --> `Build Settings`, then:
-
-* Search for `Bitcode`
-* Set Enable Bitcode to `no`
 
 ### Notification Handler
 
