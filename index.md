@@ -97,7 +97,8 @@ A web-based user interface designed to help you do the following:
 <img src="assets/deploy_with_push.png" height="400" />
 
   - Push an asset to iOS devices through Apple's Prod or Dev Push Notification Service.
-  - Increase model adoption rate by making an instant call to iOS devices to download in the background
+  - Increase model adoption rate by having devices download them automatically in the background
+  - Notifies devices via a silent push, your users won't see it
 
 [Learn how to enable push notification model updates](sections/push_notifications.md){:target="_blank"} for your app.
 
@@ -105,17 +106,16 @@ A web-based user interface designed to help you do the following:
 
 <img src="assets/BasicMonitoringFinal.png" width="100%"/>
 
-  - Track *total installations* and *iOS specs* (device type and iOS version) for active devices using your deployed models
-  - View the adoption rate of your newly deployed model versions
+- Track *total installations* and *iOS specs* (device type and iOS version) for active devices using your deployed models
+- View the adoption rate of your newly deployed model versions
 
 [Create a free account and login to get started!](https://dashboard.skafos.ai/sign-up)
 
-##### Review Past Deliveries
+##### Review Push History
 
 <img src="assets/review_push_history.png"/>
 
- - Maintain a delivery log of past model deliveries
- - Keep track of audience size per background update 
+- View a delivery log of push notifications
 
 # Resources
 We've assembled a collection of resources to help you learn and start using Skafos today.

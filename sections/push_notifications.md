@@ -1,7 +1,7 @@
 # Push Notifications
 
-- Push an asset to iOS devices through Apple's Prod or Dev Push Notification Service.
-- Updates can happen in the background and will load the delivered asset to your app the next time you open it.
+- Send a silent notification to devices to have them download the latest asset in the background
+- Updates can happen behind the scenes and will load the delivered asset to your app the next time you open it.
 - Expedite large scale roll out of a particular asset that you'd like your user base to have, over-the-air, without requiring you re-submit the app to the App Store.
 
 ### Skafos App Setup

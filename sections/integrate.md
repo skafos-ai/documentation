@@ -138,10 +138,10 @@ Select your `workspace` --> `Capabilities` --> `Push Notifications`, then:
 
 **Setup Archive Abilitiy:**
 
-Select your `workspace` --> `Build Settings`, then:
+Select your `Project` --> `Build Settings`, then:
 
-* Search for `Bitecode`
-* Set Enable Bitecode to `no`
+* Search for `Bitcode`
+* Set Enable Bitcode to `no`
 
 ### Notification Handler
 
