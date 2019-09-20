@@ -2,7 +2,9 @@
 
 Download our app to enable share sheet support.
 
-[Skafos.app](/assets/Skafos.app.zip)
+[Skafos.dmg](/assets/Skafos.dmg)
+
+To install, double click on the Skafos.dmg file and drag the icon into the Applications folder.
 
 ### Installation
 
