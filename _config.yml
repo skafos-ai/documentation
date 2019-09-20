@@ -2,6 +2,7 @@ title: Skafos Documentation
 description: Smarter Apps Run on Skafos.
 markdown: kramdown
 theme: jekyll-theme-slate
+google_analytics: UA-88857165-10
 
 # Build Settings
 plugins:
