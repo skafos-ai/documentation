@@ -125,7 +125,12 @@ Learn [how to integrate your app](sections/integrate.md){:target="_blank"} with 
 
 #### Using Skafos with External Platforms
 
-* [MakeML](sections/external_tools/makeml.md){:target="_blank"} - Get up and running with a CoreML object detection model without having to write any code. 
+* [MakeML](sections/external_tools/makeml.md){:target="_blank"} - Get up and running with a CoreML object detection model without having to write any code.
+
+#### Uploading Models from Mac OS
+
+* Our [macOS app](macos-app) includes a share sheet with which you can upload models
+  from Finder or Create ML.
 
 ### Code Examples
 If you prefer to learn by example:
