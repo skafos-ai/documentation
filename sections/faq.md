@@ -70,6 +70,5 @@ Skafos does not handle model training directly. Because each ML app and use-case
 
 ------------------------------------
 
-If you've gone through each of these and are still having issues, [reach out to
-us on Slack](https://skafosai.slack.com/join/shared_invite/enQtNTAxMzEwOTk2NzA5LThjMmMyY2JkNTkwNDQ1YjgyYjFiY2MyMjRkMzYyM2E4MjUxNTJmYmQyODVhZWM2MjQwMjE5ZGM1Y2YwN2M5ODI)
+If you've gone through each of these and are still having issues, please email [help@skafos.ai](mailto:help@skafos.ai)
 and we will provide assistance.
